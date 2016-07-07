@@ -1,5 +1,9 @@
 Requires installation of the latest Java Runtim Environment (JRE), downloadable from Oracle: http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 
+OS Support: Windows 64 Bit
+OSX: The program runs in OSX but there is no runnable Jar provided at this stage
+Linux: Not yet tested, theoretically should work
+
 Note: The resources directory is required for the program to work.
 
 Program is unfinished.
