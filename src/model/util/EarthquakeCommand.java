@@ -37,7 +37,7 @@ public class EarthquakeCommand {
 	public EarthquakeCommand() {
 		ef = new EarthquakeFunction(this);
 		apiKey = "michaelbaggottrmit";
-		apiKeyGSM = "AIzaSyB3cR6APfvwmko0VccAmeeewN9yBySsf2g";
+		apiKeyGSM = "#################";
 		northBoundary = -1000.0;
 		southBoundary = -1000.0;
 		eastBoundary = -1000.0;
