@@ -14,6 +14,11 @@ import controller.RangeComboController;
 
 public class CitiesContentPaneSelected extends JPanel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1512637428637192142L;
+
 	private EarthquakePanes earthquakePanes;
 	
 	private JLabel headerLabel;

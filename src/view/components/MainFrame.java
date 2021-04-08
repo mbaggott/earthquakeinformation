@@ -9,6 +9,10 @@ import model.facade.*;
 
 public class MainFrame extends JFrame {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 139639974876333445L;
 	private EIModel model;
 	private BorderPane borderPane;
 	//private ContentPane contentPane;

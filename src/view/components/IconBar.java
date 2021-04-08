@@ -8,6 +8,10 @@ import controller.IconBarController;
 
 public class IconBar extends JPanel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8132292966530841588L;
 	private IconBarController controller;
     private MainFrame frame;
     private JButton search;

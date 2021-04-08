@@ -1,15 +1,9 @@
 package view.components;
 
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Vector;
 
-import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
 import javax.swing.table.*;
 
 import org.json.simple.JSONArray;
@@ -18,6 +12,10 @@ import org.json.simple.JSONObject;
 public class EarthquakeTableModel extends AbstractTableModel {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6520026651798508958L;
 	private int rowCount;
 	private int columnCount;
 	List<Object> rowList;
@@ -148,8 +146,8 @@ public class EarthquakeTableModel extends AbstractTableModel {
     }
     
     @Override
-    public Class getColumnClass(int column) {
-    	switch (column) {
+    public Class<?> getColumnClass(int columnIndex) {
+    	switch (columnIndex) {
     	case 0:
     		return Integer.class;
     	case 3:

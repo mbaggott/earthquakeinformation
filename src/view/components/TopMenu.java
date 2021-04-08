@@ -3,12 +3,15 @@ package view.components;
 import javax.swing.*;
 import controller.TopMenuController;
 
-import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.event.*;
 
 public class TopMenu extends JPanel {
 		
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6808486029594138070L;
 	private MainFrame frame;
 	private JMenuBar menuBar;
 	private JMenu menu;

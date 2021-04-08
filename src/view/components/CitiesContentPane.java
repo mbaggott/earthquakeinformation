@@ -1,11 +1,14 @@
 package view.components;
 
 import java.awt.*;
-import java.util.*;
 import javax.swing.*;
 
 public class CitiesContentPane extends JPanel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4843018778115971181L;
 	private JLabel headerLabel;
 	private JLabel boundingBoxLabel;
 	private JLabel boundingBoxNorth;

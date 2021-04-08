@@ -8,10 +8,10 @@ import view.components.StatusBar;
 public class StatusBarController implements ActionListener {
 
 	private EIModel model;
-	private StatusBar statusBar;
+	// private StatusBar statusBar;
 	
 	public StatusBarController(StatusBar statusBar) {
-		this.statusBar = statusBar;
+		// this.statusBar = statusBar;
 		this.model = statusBar.getFrame().getModel();
 	}
 	

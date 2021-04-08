@@ -4,17 +4,16 @@ import java.awt.event.*;
 import javax.swing.*;
 
 import view.components.*;
-import model.facade.*;
 
 public class TopMenuController implements ActionListener {
 	
 	private TopMenu topMenu;
-    private EIModel model;
+	// private EIModel model;
     
     /* *********** CONSTRUCTOR ************* */
     public TopMenuController(TopMenu topMenu) {
     	this.topMenu = topMenu;
-    	this.model = topMenu.getFrame().getModel();
+    	// this.model = topMenu.getFrame().getModel();
  
     }
     

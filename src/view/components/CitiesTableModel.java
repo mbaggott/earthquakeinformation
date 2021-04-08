@@ -10,6 +10,10 @@ import org.json.simple.JSONObject;
 
 public class CitiesTableModel extends AbstractTableModel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6805755173487345412L;
 	private int rowCount;
 	private int columnCount;
 	List<String[]> rowList;

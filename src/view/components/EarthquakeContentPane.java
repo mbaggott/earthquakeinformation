@@ -1,11 +1,14 @@
 package view.components;
 
 import java.awt.*;
-import java.util.*;
 import javax.swing.*;
 
 public class EarthquakeContentPane extends JPanel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -872043714124195260L;
 	private MainFrame frame;
 	private JLabel headerLabel;
 	private JLabel boundingBoxLabel;

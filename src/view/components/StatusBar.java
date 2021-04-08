@@ -5,12 +5,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
-import java.util.ArrayList;
 import java.util.List;
 import controller.StatusBarController;
 
 public class StatusBar extends JPanel  {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 122800071781025766L;
 	private JLabel online;
 	private JLabel errorStatus;
 	private StatusBarController controller;

@@ -5,7 +5,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class EarthquakeCommand {

@@ -6,6 +6,10 @@ import javax.swing.JPanel;
 
 public class EarthquakePanes extends JPanel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6997424019659922462L;
 	private EarthquakeContentPane earthquakeContentPane;
 	private CitiesContentPaneSelected citiesContentPaneSelected;
 	private TabbedPane tabbedPane;

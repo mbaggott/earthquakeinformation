@@ -5,16 +5,13 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.Color;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 import javax.imageio.ImageIO;
@@ -32,22 +29,20 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Worker;
 import javafx.embed.swing.JFXPanel;
-import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundFill;
-import javafx.scene.layout.CornerRadii;
-import javafx.scene.text.Text;
 import model.facade.EIModel;
 
 public class BrowserPanel extends JPanel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8005489819876944972L;
 	private TabbedPane tabbedPane;
 	private BrowserPanelController controller;
 	private Browser browser;
 	private Scene scene;
 	private JPanel zoomPanelHolder;
-	private JPanel zoomHolder;
 	private JPanel zoomPanel;
 	private JButton zoomIn;
 	private JButton zoomOut;
@@ -248,7 +243,7 @@ public class BrowserPanel extends JPanel {
 			gbc.gridx = 1;
 			gbc.gridy = x;
 			gbc.insets = new Insets(5,5,5,5);
-			gbc.anchor = gbc.WEST;
+			gbc.anchor = GridBagConstraints.WEST;
 			
 			listValue = key + ": " + markers.get(key).get(0) + ", " + markers.get(key).get(1);
 			label.setText(listValue);

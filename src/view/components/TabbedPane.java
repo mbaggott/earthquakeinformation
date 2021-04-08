@@ -7,12 +7,15 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import javax.swing.table.*;
 
 import org.json.simple.JSONArray;
 
 public class TabbedPane extends JTabbedPane {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 528413662884119401L;
 	MainFrame frame;
 	JComponent panel2;
 	JComponent panel3;
@@ -157,6 +160,11 @@ public class TabbedPane extends JTabbedPane {
 		this.setMnemonicAt(2, KeyEvent.VK_3); 
 		
 		popupMenuEarthquake.add(new JMenuItem(new AbstractAction("Copy") {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = -2520491451904112491L;
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 		        int row = table1.getSelectedRow();
@@ -220,6 +228,11 @@ public class TabbedPane extends JTabbedPane {
 		this.setMnemonicAt(3, KeyEvent.VK_3);
 		
 		popupMenuCities.add(new JMenuItem(new AbstractAction("Copy") {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = -7523998815604114844L;
+
 			@Override 
 			public void actionPerformed(ActionEvent e) {
 		        int row = table2.getSelectedRow();

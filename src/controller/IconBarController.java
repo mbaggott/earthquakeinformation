@@ -1,16 +1,13 @@
 package controller;
 
-import java.awt.*;
 import java.awt.event.*;
 import java.text.DateFormat;
-import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
 
 import javax.swing.*;
-import model.*;
 import model.facade.*;
 import view.components.*;
 
@@ -260,7 +257,6 @@ public class IconBarController implements ActionListener {
 		statusErrors = new ArrayList<String>();
 		
 		EarthquakeContentPane pane = iconBar.getFrame().getTabbedPane().getEarthquakePanes().getEarthquakeContentPane();
-		BrowserPanel browserPane = iconBar.getFrame().getTabbedPane().getBrowserPane();
 		TabbedPane paneTab = (TabbedPane)iconBar.getFrame().getTabbedPane();
 		
 		try {

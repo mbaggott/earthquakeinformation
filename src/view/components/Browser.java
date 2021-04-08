@@ -2,9 +2,6 @@ package view.components;
 
 import javafx.geometry.HPos;
 import javafx.geometry.VPos;
-import javafx.scene.Node;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
@@ -23,12 +20,7 @@ public class Browser extends Region {
         getChildren().add(browser);
  
     }
-    
-    private Node createSpacer() {
-        Region spacer = new Region();
-        HBox.setHgrow(spacer, Priority.ALWAYS);
-        return spacer;
-    }
+ 
     
     @Override protected void layoutChildren() {
         double w = getWidth();
